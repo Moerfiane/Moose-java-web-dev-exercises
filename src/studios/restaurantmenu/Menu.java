@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Menu {
-    Menu newMenu = new Menu;
+    //Menu newMenu = new Menu();
 
     private Date dateUpdated;
     private ArrayList<MenuItem> items = new ArrayList<>();

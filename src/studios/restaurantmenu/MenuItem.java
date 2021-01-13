@@ -1,14 +1,14 @@
 package studios.restaurantmenu;
 
 public class MenuItem {
-    //MenuItem newMenuItem = new MenuItem;
+    //MenuItem newMenuItem = new MenuItem();
 
     //instance fields
-    private double price ;
+    private double price;
     private String name;
     private String category;
     private String description;
-    boolean isNew;
+    private boolean isNew;
 
     //constructor
     public MenuItem(double price, String description, String category, String name, boolean isNew) {
@@ -17,15 +17,47 @@ public class MenuItem {
         this.category = category;
         this.name = name;
         this.isNew = isNew;
-
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-    public void isNew(boolean isNew) {
-        this.isNew = isNew;
+    public void setPrice(double aPrice) {
+        this.price = aPrice;
     }
 
-        }
+    public double getPrice() {
+        return price;
+    }
+
+    public void setIsNew(boolean aIsNew) {
+        this.isNew = aIsNew;
+    }
+
+    public boolean getIsNew() {
+        return isNew;
+    }
+
+    public void setName(String aName) {
+        this.name = aName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setDescription(String aDescription) {
+        this.description = aDescription;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setCategory(String aCategory) {
+        this.category = aCategory;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+}
 
