@@ -7,15 +7,28 @@ public class Menu {
 
     private Date dateUpdated;
     private ArrayList<MenuItem> items = new ArrayList<>();
-    private boolean isUpdated = true;
 
-    public double getMenu () {
-
-    }
-
+    //constructor
     public Menu(Date aDate, ArrayList<MenuItem> anItem) {
         this.dateUpdated = aDate;
         this.items = anItem;
+    }
+
+    //getters and setters
+    public Date getDateUpdated(){
+        return dateUpdated;
+    }
+
+    public void setDateUpdated(Date aDateUpdated){
+        dateUpdated = aDateUpdated;
+    }
+
+    public ArrayList<MenuItem> getItems(){
+        return items;
+    }
+
+    public void setItems(ArrayList<MenuItem> aItems){
+        items = aItems;
     }
 
 }
