@@ -2,10 +2,9 @@ package org.launchcode.java.demos.studio.restaurant;
 import java.util.ArrayList;
 import java.util.Date;
 
-
 public class Menu {
-    //Menu newMenu = new Menu();
 
+    //Menu newMenu = new Menu();
     private Date dateUpdated;
     private ArrayList<MenuItem> items = new ArrayList<>();
 
@@ -19,19 +18,32 @@ public class Menu {
     public Date getDateUpdated(){
         return dateUpdated;
     }
-
     public void setDateUpdated(Date aDateUpdated){
         dateUpdated = aDateUpdated;
     }
-
     public ArrayList<MenuItem> getItems(){
         return items;
     }
-
     public void setItems(ArrayList<MenuItem> aItems){
         items = aItems;
     }
+
+    addItemToMenu(MenuItem item) {
+        item.Menu.setItems();
+
+
     }
+
+    removeItemFromMenu(MenuItem item) {
+
+
+        }
+
+
+
+
+    }
+}
 
 
 
