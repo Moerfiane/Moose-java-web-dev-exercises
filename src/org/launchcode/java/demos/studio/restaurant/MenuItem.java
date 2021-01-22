@@ -7,13 +7,15 @@ public class          MenuItem {
     private float price;
     private String category;
     private String date;
+    private boolean isNew;
 
-    public MenuItem(String name, String description, float price, String category, String date) {
+    public MenuItem(String name, String description, float price, String category, String date, boolean isNew) {
         this.name = name;
         this.description = description;
         this.price = price;
         this.category = category;
         this.date = date;
+        this.isNew = isNew;
 
     }
 
@@ -21,32 +23,32 @@ public class          MenuItem {
         return name;
     }
     public void setName(String aName) {
-        name = aName;
+        this.name = aName;
     }
 
     public String getDescription() {
         return description;
     }
-    public void setDescription(String aDiscription) {description = aDiscription; }
+    public void setDescription(String aDiscription) {this.description = aDiscription; }
 
     public float getPrice() {
         return price;
     }
-    public void setPrice(float aPrice) {price = aPrice; }
+    public void setPrice(float aPrice) {this.price = aPrice; }
 
     public String getCategory() {
         return category;
     }
-    public void setCategory(String aCategory) {
-        name = aCategory;
+    public void setCategory(String aCategory) { this.name = aCategory;
     }
 
     public String getDate() {
         return date;
     }
-    public void setDate(String aDate) {
-        name = aDate;
+    public void setDate(String aDate) { this.name = aDate;
     }
-
+    public Boolean getIsNew() {return isNew; }
+    public void setIsNew(boolean aIsNew) { this.isNew = aIsNew;
+    }
 
 }
