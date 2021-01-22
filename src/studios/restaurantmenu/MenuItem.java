@@ -22,6 +22,17 @@ public class MenuItem {
     //instance methods
 
 
+    @Override
+    public String toString() {
+        return "MenuItem{" +
+                "price=" + price +
+                ", name='" + name + '\'' +
+                ", category='" + category + '\'' +
+                ", description='" + description + '\'' +
+                ", isNew=" + isNew +
+                '}';
+    }
+
     //getters and setters
     public void setPrice(double aPrice) {
         this.price = aPrice;

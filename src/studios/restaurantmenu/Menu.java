@@ -15,15 +15,30 @@ public class Menu {
     }
 
     //instance methods
-    public void removeItem(String itemName, ArrayList<MenuItem> items){
+    public void removeItem(MenuItem itemToRemove){
         for (int i = 0; i < items.size(); i++){
-            if ()
+            if (items.get(i).equals(itemToRemove)) {
+                items.remove(i);
+            }
         }
     }
 
     public void addItem(MenuItem item){
         items.add(item);
     }
+
+    public boolean isNew(MenuItem item){
+        return item.getIsNew();
+    }
+
+    public Date lastUpdated() {
+        return this.dateUpdated;
+    }
+
+//    public void printMenu(){
+//        for ()
+//            items(i).toString();
+//    }
 
     //getters and setters
     public Date getDateUpdated(){
