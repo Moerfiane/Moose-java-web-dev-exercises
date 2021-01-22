@@ -14,6 +14,17 @@ public class Menu {
         this.items = anItem;
     }
 
+    //instance methods
+    public void removeItem(String itemName, ArrayList<MenuItem> items){
+        for (int i = 0; i < items.size(); i++){
+            if ()
+        }
+    }
+
+    public void addItem(MenuItem item){
+        items.add(item);
+    }
+
     //getters and setters
     public Date getDateUpdated(){
         return dateUpdated;

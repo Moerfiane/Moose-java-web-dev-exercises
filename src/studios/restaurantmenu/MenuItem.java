@@ -19,6 +19,10 @@ public class MenuItem {
         this.isNew = isNew;
     }
 
+    //instance methods
+
+
+    //getters and setters
     public void setPrice(double aPrice) {
         this.price = aPrice;
     }
