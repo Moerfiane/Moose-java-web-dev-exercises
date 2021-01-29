@@ -7,9 +7,8 @@ public abstract class Question {
     private String response;
     private String correctAnswer;
 
-    public Question(String prompt, String response, String correctAnswer){
+    public Question(String prompt, String correctAnswer){
         this.prompt = prompt;
-        this.response = response;
         this.correctAnswer = correctAnswer;
     }
 
@@ -22,4 +21,6 @@ public abstract class Question {
     public String getCorrectAnswer() {
         return correctAnswer;
     }
+
+    public abstract void printPrompt();
 }
