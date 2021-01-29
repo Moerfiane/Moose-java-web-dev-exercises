@@ -15,11 +15,11 @@ public class Menu {
     }
 
     //instance methods
-//    public void removeItem(String itemName, ArrayList<MenuItem> items){
-//        for (int i = 0; i < items.size(); i++){
-//            if ()
-//        }
-//    }
+    public void removeItem(String itemName, ArrayList<MenuItem> items){
+        for (int i = 0; i < items.size(); i++){
+            if ()
+        }
+    }
 
     public void addItem(MenuItem item){
         items.add(item);
