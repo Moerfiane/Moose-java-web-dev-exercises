@@ -7,6 +7,7 @@ public class Main {
 
         CD myCD = new CD(700, "Purple Rain", 800, "CD-");
         DVD myDVD = new DVD(1600, "Moulin Rouge", 2400, "DVD-R");
+        LP myLP = new LP(49, "legend", 46, "Wax" );
 
         // TODO: Call each CD and DVD method to verify that they work as expected.
 
@@ -14,5 +15,7 @@ public class Main {
         myCD.readData();
         myDVD.spinDisc();
         myDVD.readData();
+        myLP.spinDisc();
+        myLP.readData();
     }
 }
