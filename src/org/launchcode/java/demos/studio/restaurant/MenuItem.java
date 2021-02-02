@@ -1,5 +1,7 @@
 package org.launchcode.java.demos.studio.restaurant;
 
+//This is a collaborative coding experience
+
 public class MenuItem {
 
     private String name;
