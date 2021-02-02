@@ -12,4 +12,21 @@ public abstract class BaseDisc {
         this.contents = aContents;
         this.type = aType;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public String getContents() {
+        return contents;
+    }
+
+    public String getType() {
+        return type;
+    }
+
 }
