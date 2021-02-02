@@ -29,4 +29,9 @@ public abstract class BaseDisc {
         return type;
     }
 
+    public String printInfo() {
+        return "Name: " + this.name + "\n Capacity: " + this.capacity + "\n Contents: " + this.contents + "\n Type: " + this.type;
+    }
+
+
 }

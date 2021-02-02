@@ -1,7 +1,5 @@
 package org.launchcode.java.studios.quizzes;
 
-import java.util.Locale;
-
 public class TrueFalse {
 
     //Variables
@@ -24,11 +22,13 @@ public class TrueFalse {
     }
 
     //Methods
-    public int isCorrect(String inputAnswer) {
+   /* public void isCorrect(String inputAnswer) {
         int score = 0;
         if(inputAnswer.toLowerCase().equals(answer)) {
             score ++;
             return score;
-        }
+
     }
+}
+*/
 }

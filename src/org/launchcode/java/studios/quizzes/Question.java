@@ -6,9 +6,10 @@ public abstract class Question {
     private String question;
 
     //Constructors
-    public static void
+   // public static void
 
     //Method
-    grading
+  //  grading
+
 
 }
