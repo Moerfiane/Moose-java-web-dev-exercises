@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
 
+
 @Controller
 public class SpaDayController {
 
@@ -68,6 +69,7 @@ public class SpaDayController {
 
     @PostMapping(value="")
     public String spaMenu(@RequestParam String name, @RequestParam String skintype, @RequestParam String manipedi, Model model) {
+        String cap = skintype.substring(0, 1).toUpperCase() + skintype.substring(1);
 
         ArrayList<String> facials = new ArrayList<String>();
         facials.add("Microdermabrasion");
@@ -82,6 +84,11 @@ public class SpaDayController {
             }
         }
 
+        model.addAttribute("name" , name);
+        model.addAttribute("skintype", cap);
+        model.addAttribute("facials", facials);
+        model.addAttribute("appropriateFacials", appropriateFacials);
+        model.addAttribute("manipedi", manipedi);
         return "menu";
     }
 }
