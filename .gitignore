@@ -4,7 +4,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-### Group 2 ###
+### Group 3 ###
 ### STS ###
 .apt_generated
 .classpath
