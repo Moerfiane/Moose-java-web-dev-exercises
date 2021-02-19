@@ -4,7 +4,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-### group 3 take 2 ###
+### group 1 take 2 ###
 
 ### STS ###
 .apt_generated
